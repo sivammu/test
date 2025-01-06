@@ -5,6 +5,9 @@ const Sample = () => {
     useEffect(() =>
     { setName("Batchu")},
     [])
+
+    
+    
     return(
         <>
         <h1>{name}</h1>
